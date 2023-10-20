@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.sideNavigation{
+    border: none;
+    background-color: rgb(58, 55, 55);
+    width: 150px;
+    height: fit-content;
+    box-shadow: 1px 3px 3px black, 5px 5px 5px 1px rgb(105, 101, 101);
+}
+.footer{
+    gap: 4px;
+    display: inline-flex;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(19, 14, 14, 0.658);
+    position: bottom;
+}
+#f,#fe{
+    color: blue;
+}
+#f:hover{
+    color: wheat;
+}
+#fe:hover{
+    color: wheat;
+}
+.profile{
+    border: none;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(231, 190, 136, 0.705);
+}
+body{
+    color: antiquewhite;
+    background-image: url(https://img.freepik.com/premium-vector/wood-texture-background_153082-219.jpg?size=626&ext=jpg&ga=GA1.1.266876037.1696102206&semt=ais);
+    background-size: cover;
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    gap: 6px;
+    display: flex;
+}
+.profilePicture{
+    margin-top: 4px;
+    border-radius: 50%;
+    box-shadow: -1px -1px 1px black, 2px 1px 1px 1px black;
+}
+.title{
+    text-shadow: 2px 2px 1px grey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: burlywood;
+    text-align: center;
+}
+a{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 2pc;
+    display: block;
+}
+li{
+    list-style: none;
+}
+li:hover{
+    background-color: grey;   
+}
+a:hover{
+    color: black;
+}
+.caption{
+    background-color: gray;
+}
+.workSamples{
+    width: 100%;
+}

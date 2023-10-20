@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: wheat;
+    min-height: 100vh;
+    max-width: 100%;
+    background-image: url(https://img.freepik.com/premium-vector/wood-texture-background_153082-219.jpg?size=626&ext=jpg&ga=GA1.1.266876037.1696102206&semt=ais);
+    background-size: cover;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/creative-clay-textured-background-blue-border-diy-tie-dye-art-abstract-style_53876-134220.jpg?size=626&ext=jpg&ga=GA1.1.266876037.1696102206&semt=ais);
+    background-size: cover;
+    background-position:100%;
+    display:flex;
+}
+
+ul,li{
+    display: flex;
+    gap: 1pc;
+}
+li:hover{
+    background-color: grey;
+}
+
+a:hover{
+    display: block;
+    color: black;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+H3{
+    text-align: center;
+}
+.profilePicture{
+    margin-top: 4px;
+    border-radius: 50%;
+    box-shadow: -1px -1px 1px black, 2px 1px 1px 1px black;
+}
+.outerBox{
+    width: 100%;
+    text-align: center;
+}
+.picturesBox{
+    background-image: url(pics/blueBackground.jpg);
+    background-size: cover;
+    background-position:100%;
+    width: 100%;
+    height:450px;
+    margin: 0%;
+    overflow-y: scroll;
+}
+.or{
+    display: inline-flex;
+    width:32%;
+    height: 150px;
+    transform:rotate3d(30deg)
+}
